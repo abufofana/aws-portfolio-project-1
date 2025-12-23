@@ -12,7 +12,7 @@ The goal of this project is not just to make something work, but to fully unders
 
 This project is intentionally begineer-friendly and focuses on strong fundamentals.
 
-#Status
+##Status
 Project started onm December 23, 2025.
 
 More details will be added as the project progresses. 
