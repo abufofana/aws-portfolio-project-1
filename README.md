@@ -15,4 +15,27 @@ This project is intentionally begineer-friendly and focuses on strong fundamenta
 ## Status
 Project started onm December 23, 2025.
 
-More details will be added as the project progresses. 
+More details will be added as the project progresses.
+
+## Architecture
+
+This project provisions an AWS S3 bucket using Terraform.  
+The bucket is created using variables and tagged to demonstrate how Terraform can parameterize infrastructure and enforce consistent metadata across resources.
+
+## Terraform Resources Used
+
+- aws_s3_bucket
+- terraform variables
+- resource tagging
+
+## Terraform Workflow
+
+The infrastructure lifecycle followed the standard Terraform workflow:
+
+terraform fmt  
+terraform validate  
+terraform plan  
+terraform apply  
+terraform destroy
+
+This ensures infrastructure can be reliably created, tested, and removed using Infrastructure as Code.
